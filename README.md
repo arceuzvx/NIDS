@@ -12,18 +12,18 @@ To deploy a lightweight, inference-ready AI agent capable of detecting potential
 
 - Inference-ready, no training pipeline.
 - Compatible with IBM Cloud environments (Watson Studio, Cloud Notebooks).
-- Model can classify data into various attack categories (based on NSL-KDD or similar datasets).
+- Model can classify data into various attack categories. 
 - Simplified UI via Jupyter Notebook for proof-of-concept testing.
 
 ---
 
 ## 🧰 Technologies Used
 
-- **Python 3.x**
+- **Python 3.11**
 - **scikit-learn**
 - **pandas, numpy**
 - **Jupyter Notebook**
-- **IBM Cloud Lite Account (optional)**
+- **IBM Cloud Lite Account**
   - [Watson Studio](https://dataplatform.cloud.ibm.com/)
   - [Cloud Object Storage](https://www.ibm.com/cloud/object-storage)
 
@@ -35,8 +35,8 @@ To deploy a lightweight, inference-ready AI agent capable of detecting potential
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/NIDS-Inference-MVP.git
-   cd NIDS-Inference-MVP
+   git clone https://github.com/your-username/NIDS.git
+   cd NIDS
    
 2. Create a virtual environment and install dependencies
 
@@ -49,5 +49,5 @@ To deploy a lightweight, inference-ready AI agent capable of detecting potential
 3. Open the notebook
    ```bash
     jupyter notebook
-4. Run ```Network Intrusion Detection System copy.ipynb``` for predictions.
+4. Run ```Network Intrusion Detection System.ipynb``` for predictions.
 
