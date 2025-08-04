@@ -41,8 +41,6 @@ To deploy a lightweight, inference-ready AI agent capable of detecting potential
 2. Create a virtual environment and install dependencies
 
     ```bash
-    Copy
-    Edit
     python -m venv venv
     source venv/bin/activate   # On Windows: venv\Scripts\activate
     pip install -r requirements.txt
